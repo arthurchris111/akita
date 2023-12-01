@@ -6,6 +6,7 @@ import { Product } from './products.model';
 
 @Injectable({ providedIn: 'root' })
 export class ProductsService {
+  //
   constructor(private productsStore: ProductsStore, private http: HttpClient) {}
 
   public get() {
